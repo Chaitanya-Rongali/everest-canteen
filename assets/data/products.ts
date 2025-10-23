@@ -1,5 +1,5 @@
-import { data } from "../../src/types/item";
-export const DATA:data[] = [
+import { itemData} from "../../src/types/item";
+export const DATA:itemData[] = [
   {
     title: 'Main dishes',
     data: [{ id: '1', name: 'Egg fired rice',cost:60, image: { uri: 'https://www.indianhealthyrecipes.com/wp-content/uploads/2021/07/egg-fried-rice-recipe.jpg' } },
