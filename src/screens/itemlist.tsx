@@ -7,7 +7,7 @@ import { styles } from '../styles/itemlist';
 
 
 const Displaylistofitems = () => (
-  <SafeAreaProvider>
+  
     <SafeAreaView style={styles.container} edges={['top']}>
       <Text>EverestEnginering</Text>
       <SectionList
@@ -29,7 +29,7 @@ const Displaylistofitems = () => (
         )}
       />
     </SafeAreaView>
-  </SafeAreaProvider>
+  
 );
 
 export default Displaylistofitems
