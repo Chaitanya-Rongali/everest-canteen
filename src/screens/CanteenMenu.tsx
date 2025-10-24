@@ -1,12 +1,12 @@
 import React from 'react';
 import { Text, View, SectionList, Image } from 'react-native';
 import { SafeAreaView, SafeAreaProvider } from 'react-native-safe-area-context';
-import { DATA } from '../../assets/data/products';
-import { styles } from '../styles/itemlist';
+import { DATA } from '../../assets/data/menu';
+import { styles } from '../styles/Canteenmenu';
 
 
 
-const Displaylistofitems = () => (
+export const CanteenMenu= () => (
   
     <SafeAreaView style={styles.container} edges={['top']}>
       <Text>EverestEnginering</Text>
@@ -32,4 +32,4 @@ const Displaylistofitems = () => (
   
 );
 
-export default Displaylistofitems
+export default CanteenMenu

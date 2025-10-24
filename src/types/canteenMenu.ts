@@ -4,7 +4,7 @@ export type Item = {
     cost: number;
     image: any;
 }
-export type itemData = {
+export type menuSection = {
     title: string;
     data: Item[];
 }

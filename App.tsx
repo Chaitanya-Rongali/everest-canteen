@@ -1,12 +1,11 @@
-import { StatusBar } from 'expo-status-bar';
-import { StyleSheet, Text, View } from 'react-native';
-import Displaylistofitems from './src/screens/itemlist';
+
+import CanteenMenu from './src/screens/Canteenmenu';
 import { SafeAreaProvider } from 'react-native-safe-area-context';
 
 export default function App() {
   return (
       <SafeAreaProvider>
-      <Displaylistofitems/>
+      <CanteenMenu/>
       </SafeAreaProvider>
       
     
